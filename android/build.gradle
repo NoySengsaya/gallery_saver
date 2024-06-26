@@ -35,6 +35,9 @@ android {
         minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    
+    namespace "carnegietechnologies.gallery_saver"
+
     lintOptions {
         disable 'InvalidPackage'
     }
